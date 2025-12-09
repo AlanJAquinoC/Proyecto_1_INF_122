@@ -1,0 +1,230 @@
+/* Importar fuente de Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+.padre{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #F8F8F8;
+    font-family: 'Poppins', sans-serif;
+}
+
+.encabezado{
+    background-color: #1A4314;
+    color: #F8F8F8;
+}
+
+/* Encabezado */
+.navbar-nav .nav-link {
+    font-size: 28px !important ;
+    color: #FFFFFF !important;
+    padding: 15px 25px !important ;
+    margin: 0 10px !important ; 
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #FFD700 !important;
+    transform: translateY(-5px);
+}
+
+.navbar {
+    padding: 10px 20px;
+    font-weight: 500;
+}
+
+/* Carousel */
+.carusel{
+    padding: 10px;
+    margin-left: 196px;
+    width: 900px;
+}
+
+/* Badge Título */
+.badge{
+    margin: 10px;
+    color: #F8F8F8 !important;
+    background-color: #D22B2B !important;
+    font-size: 70px !important;
+    padding: 20px 40px !important;
+}
+
+.titulo_feliz_navi {
+    text-align: center;
+    margin: 40px 0;
+}
+
+/* Footer */
+.footer{
+    text-align: center;
+    padding: 30px 10px;
+    background-color: #1A4314;
+    color: #F8F8F8;
+    width: 100%;
+    margin-top: 50px;
+}
+
+/* Cards */
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    background-color: white;
+}
+
+.card-hover:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-title {
+    color: #1A4314;
+    font-weight: 600;
+}
+
+.text-christmas {
+    color: #1A4314 !important;
+    font-weight: 600;
+}
+
+/* iamgen */
+.card-img-top{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Botones */
+.btn-christmas {
+    background-color: #D22B2B;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 25px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.btn-christmas:hover {
+    background-color: #A01F1F;
+    color: white;
+    transform: scale(1.05);
+}
+
+/* Alert */
+.alert-christmas {
+    background-color: #FFD700;
+    border: 3px solid #1A4314;
+    border-radius: 15px;
+    color: #333333;
+}
+.alert-christmas .alert-heading {
+    color: #D22B2B;
+}
+
+.alert-christmas .alert-link {
+    color: #1A4314;
+    text-decoration: none;
+}
+
+.alert-christmas .alert-link:hover {
+    color: #D22B2B;
+    text-decoration: underline;
+}
+
+/* Títulos de sección */
+.titulo-seccion {
+    color: #1A4314;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+/* Iconos */
+.icon-circle {
+    font-size: 4rem;
+    margin: 20px 0;
+}
+
+.music-icon {
+    font-size: 50px;
+    margin: 10px 0;
+}
+
+/* Scrollspy */
+.scrollspy-example {
+    position: relative;
+    height: auto;
+    overflow: auto;
+}
+
+.nav-pills .nav-link {
+    color: #333333;
+    margin-bottom: 5px;
+    border-radius: 8px;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #D22B2B;
+    color: white;
+}
+
+.nav-pills .nav-link:hover {
+    background-color: #FFD700;
+    color: #333333;
+}
+
+/* Carousel indicators */
+.carousel-indicators button {
+    background-color: #D22B2B;
+}
+.imagen_comida{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #D22B2B;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .navbar-nav .nav-link {
+        font-size: 20px !important;
+        padding: 10px 15px !important;
+    }
+    
+    .badge {
+        font-size: 40px !important;
+        padding: 15px 25px !important;
+    }
+    
+    .carusel {
+        width: 95%;
+        margin: 10px auto;
+    }
+    
+    .icon-circle {
+        font-size: 2.5rem;
+    }
+}
+
+/* Animaciones */
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.card {
+    animation: slideIn 0.5s ease-out;
+}
