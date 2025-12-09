@@ -32,13 +32,13 @@ function Principal(props) {
                 <div id="carouselExample" className="carousel slide" data-bs-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                    <img src="../public/fondo_navi_1.jpg" className="d-block w-100" alt="Navidad 1" />
+                    <img src="/fondo_navi_1.jpg" className="d-block w-100" alt="Navidad 1" />
                     </div>
                     <div className="carousel-item">
-                    <img src="../public/fondo_navi_2.jpg" className="d-block w-100" alt="Navidad 2" />
+                    <img src="/fondo_navi_2.jpg" className="d-block w-100" alt="Navidad 2" />
                     </div>
                     <div className="carousel-item">
-                    <img src="../public/fondo_navi_3.jpg" className="d-block w-100" alt="Navidad 3" />
+                    <img src="/fondo_navi_3.jpg" className="d-block w-100" alt="Navidad 3" />
                     </div>
                 </div>
                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
