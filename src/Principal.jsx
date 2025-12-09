@@ -1,5 +1,8 @@
 import {Link } from "react-router-dom";
 import "./Est_1.css"
+import fondoNavi1 from './assets/fondo_navi_1.jpg'
+import fondoNavi2 from './assets/fondo_navi_2.jpg'
+import fondoNavi3 from './assets/fondo_navi_3.jpg'
 
 function Principal(props) {
     return (
@@ -32,13 +35,13 @@ function Principal(props) {
                 <div id="carouselExample" className="carousel slide" data-bs-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                    <img src="/fondo_navi_1.jpg" className="d-block w-100" alt="Navidad 1" />
+                    <img src={fondoNavi1} className="d-block w-100" alt="Navidad 1" />
                     </div>
                     <div className="carousel-item">
-                    <img src="/fondo_navi_2.jpg" className="d-block w-100" alt="Navidad 2" />
+                    <img src={fondoNavi2} className="d-block w-100" alt="Navidad 2" />
                     </div>
                     <div className="carousel-item">
-                    <img src="/fondo_navi_3.jpg" className="d-block w-100" alt="Navidad 3" />
+                    <img src={fondoNavi3} className="d-block w-100" alt="Navidad 3" />
                     </div>
                 </div>
                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
